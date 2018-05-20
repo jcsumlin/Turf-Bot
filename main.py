@@ -24,7 +24,7 @@ else:
         turf_replys = turf_replys.split("\n")
         turf_replys = list(filter(None, turf_replys))
 bot_list = ['agree-with-you', 'Defiantly_Not_A_Bot', 'CommonMisspellingBot', 'WhoaItsAFactorial', 'FatFingerHelperBot', ' anti-gif-bot', 'LimbRetrieval-Bot']
-turf_copy_pasta = "First, take a big step back... And literally, F*CK YOUR OWN FACE! I don't know what kind of pan-pacific bullshit power play you're trying to pull here, but r/StarVStheForcesofEvil is my territory. So whatever you're thinking, you'd better think again! Otherwise I'm gonna have to head down there and I will rain down in a Godly f*cking firestorm upon you! You're gonna have to call the f*cking United Nations and get a f*cking binding resolution to keep me from f*cking destroying you. I'm talking about a scorched earth, motherf*cker! I will massacre you! I WILL f*ck YOU UP!"
+turf_copy_pasta = "First, take a big step back... And literally, F-CK YOUR OWN FACE! I don't know what kind of pan-pacific bullshit power play you're trying to pull here, but r/StarVStheForcesofEvil is my territory. So whatever you're thinking, you'd better think again! Otherwise I'm gonna have to head down there and I will rain down in a Godly f-cking firestorm upon you! You're gonna have to call the f-cking United Nations and get a f-cking binding resolution to keep me from f-cking destroying you. I'm talking about a scorched earth, motherf-cker! I will massacre you! I WILL f-ck YOU UP!"
 def reply_bot(debug=False):
     subreddit = reddit.subreddit(SUBREDDIT)
     comment_stream = subreddit.stream.comments()
